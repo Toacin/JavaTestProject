@@ -1,19 +1,6 @@
 package main;
 
-import java.sql.SQLOutput;
-
-import static main.commonPreFix.longestCommonPrefix;
-import static main.palindrome.isPalindrome;
-
-public class main {
-    public static void main(String[] args) {
-        int x = 343;
-        int y = 3434;
-        int testNumber = 123321;
-
-        System.out.println(isPalindrome(testNumber));;
-    }
-
+public class palindrome {
     static public boolean isPalindrome(int x) {
         String intStringified = String.valueOf(x);
         char[] charArray = new char[intStringified.length()];
