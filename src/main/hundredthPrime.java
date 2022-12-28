@@ -1,5 +1,8 @@
 package main;
 
+// find the hundreth prime number
+// my solution:
+
 public class hundredthPrime {
     public static void main(String[] args) {
         boolean whileCondition = true;

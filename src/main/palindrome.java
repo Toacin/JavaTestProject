@@ -1,5 +1,7 @@
 package main;
 
+// determine if number is palindromic (return boolean)
+// my solution:
 public class palindrome {
     static public boolean isPalindrome(int x) {
         String intStringified = String.valueOf(x);

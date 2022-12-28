@@ -1,5 +1,7 @@
 package main;
 
+//find the common prefix in an array of words
+// my solution:
 public class commonPreFix {
     static public String longestCommonPrefix(String[] strs) {
         String wordToCheck = strs[0];
