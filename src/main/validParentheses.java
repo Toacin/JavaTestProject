@@ -3,6 +3,7 @@ package main;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 public class validParentheses {
     public static boolean isValidParentheses(String parenSet) {
@@ -26,8 +27,17 @@ public class validParentheses {
                 default -> "]";
             };
 
-            int indexOfRemoval = stringArray.indexOf(characterToRemove);
+//            int indexOfRemoval = stringArray.indexOf(characterToRemove);
+
+            int indexOfRemoval = -1;
+            for (int i=0; i< stringArray.size(); i++) {
+                if (Objects.equals(stringArray.get(i), characterToRemove)) {
+                    indexOfRemoval = i;
+                }
+            }
             if (indexOfRemoval == -1) return false;
+
+
 
             List<String> substringArrayList = stringArray.subList(1,indexOfRemoval);
             String subStringJoinedString = String.join("", substringArrayList);
@@ -53,7 +63,8 @@ public class validParentheses {
         String parenset5 = "))((";
         String parenset6 = "{{}}[]";
         String parenset7 = "{})([)(][[{{)([]]()(";
-        String parenset8 = "({)}";
-        System.out.println(isValidParentheses(parenset8));
+        String parenset8 = "(([]){})";
+        String parenset9 = "(())[()]";
+        System.out.println(isValidParentheses(parenset4));
     }
 }
