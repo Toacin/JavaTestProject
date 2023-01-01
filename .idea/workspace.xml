@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb0b2b41-d70c-45b5-9919-0fe1b8f31608" name="Changes" comment="&quot;mergeSortedLinkedLists solved&quot;">
+    <list default="true" id="bb0b2b41-d70c-45b5-9919-0fe1b8f31608" name="Changes" comment="&quot;mergeSortedArrays javascript  solved with new arrays&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/RemoveDuplicates.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/TestMerge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/mergeSortedArrays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/insertPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/lengthOfFinalWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/mergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/mergeSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +134,7 @@
       <workItem from="1672100254265" duration="200000" />
       <workItem from="1672182439432" duration="11585000" />
       <workItem from="1672255818566" duration="4100000" />
-      <workItem from="1672520630325" duration="15473000" />
+      <workItem from="1672520630325" duration="23381000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;initialized packages&quot;">
       <created>1671863440136</created>
@@ -155,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672532129476</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;mergeSortedArrays javascript  solved with new arrays&quot;">
+      <created>1672536891965</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672536891965</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +184,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;initialized packages&quot;" />
     <MESSAGE value="&quot;mergeSortedLinkedLists solved&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;mergeSortedLinkedLists solved&quot;" />
+    <MESSAGE value="&quot;mergeSortedArrays javascript  solved with new arrays&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;mergeSortedArrays javascript  solved with new arrays&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
