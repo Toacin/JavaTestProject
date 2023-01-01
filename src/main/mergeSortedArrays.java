@@ -15,11 +15,6 @@ public class mergeSortedArrays {
     static public void pushNewNode(ListNode head, int valueToAdd) {
         ListNode reference = head;
 
-//        if (head == null) {
-//            head.val = valueToAdd;
-//            return;
-//        }
-
         while (reference.next != null) {
             reference = reference.next;
         }
